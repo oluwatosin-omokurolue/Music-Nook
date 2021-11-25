@@ -1,0 +1,242 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="music nook.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/16ed0b5243.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <title>Music-Nook</title>
+</head>
+<body>
+
+    <section id="landing-page">
+
+        <!--navbar-->
+        <div class="container-fluid">
+            <nav class=" nav-icon navbar  navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="">music-nook</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav-bar navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#landing-page">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#log-in-form">Join</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#pairings">Pairing</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Nookers">Nookers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact Us</a>
+                </li>
+              </ul>
+           </div>
+          </nav>
+        
+          
+
+          <!--title-page-->
+          <div class="title-page">
+          <div class="row">
+              <div class="col-lg-6">
+                  <h1 class="header-text">Music-Nook</h1>
+                  <p class="paragraph">Pair up the best songs with your favorite books</p>
+                  <button type="button" class=" btn-header btn btn-dark btn-lg download-button">Pair</button>
+              </div>
+
+              <div class="col-lg-6">
+                  <img class="title-image" src="audio-book-removebg-preview.png" alt="girl-book" >
+
+              </div>
+          </div>
+          </div>
+          
+
+    </section>
+
+    <section id="log-in-form">
+        <!--log-in-page-->
+        <div class="row">
+            <div class="col-lg-6 log-header">
+            <h1 class="header-log-in">Listen while you read</h1>
+            <p class="paragraph-log-in">Add the best melodies through your journey into stories</p>
+
+            </div>
+            <div class="col-lg-6">
+                <form class="form-nook">
+                    <label for="username">Username:</label>
+                    <input class="text-form" type="text" name="username" id="username">
+
+                    <label for="email">Email:</label>
+                    <input class="text-form" type="email" name="email" id="email" placeholder="melvin@example.com" required>
+
+                    <label for="password">Password:</label>
+                    <input class="text-form" type="password" name="password" id="password" placeholder="8 characters or more">
+
+                    <label for="music-genre">Music Genre:</label>
+                    <select class="text-form">
+                        <option value="rock">Rock</option>
+                        <option value="rap">Rap</option>
+                        <option value="alternative">Alternative</option>
+                        <option value="classical">Classical</option>
+                        <option value="country">Country</option>
+                        <option value="r&b">R&B</option>
+                    </select>
+
+                    <label for="book-genre">Book-Genre</label>
+                    <select class="text-form">
+                        <option value="fiction">Fiction</option>
+                        <option value="non-fiction">Non-Fiction</option>
+                        <option value="romance">Romance</option>
+                        <option value="horror">Horror</option>
+                        <option value="sci-fi">Sci-Fi</option>
+                        <option value="fantasy">Fantasy</option>
+                    </select>
+                    <label for="checkbox">I Agree to all <a href="www.google.com">Terms and Conditions</a></label>
+                    <input class="checkbox" type="checkbox" name="checkbox" id="checkbox" required>
+
+                    <input class="submit-button" value="Join" type="submit" name="submit" id="submit">
+
+
+
+
+
+                </form>
+                </div>
+    
+        </div>
+
+    </section>
+
+    <section id="pairings">
+        <!--pairings-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2 class="pairing-header">Popular Pairings.</h2>
+                <p class="paragraph-pairing">Normal people by Sally Rooney and Terrible love by Birdy</p>
+          <img class="pairing-img" src="normalpeople.png" alt="normalpeople">
+          <img class="pairing-img" src="birdy.png" alt="birdy">
+
+              </div>
+              <div class="carousel-item">
+                <h2 class="pairing-header">Popular Pairings</h2>
+                <p class="paragraph-pairing">Transcedent Kingdom by Yaa Gyasi and If Depression gets the best of me by Zevia</p>
+                <img class="pairing-img" src="transking.png" alt="transking">
+                <img class="pairing-img" src="depression.png" alt="depression">
+              </div>
+            
+            <div class="carousel-item">
+                <h2 class="pairing-header">Popular Pairings</h2>
+                <p class="paragraph-pairing"> The death of vivek oji by Akwaeke Emezi and In this Shirt by The irrepressibles</p>
+                <img class="pairing-img" src="vivek.png" alt="vivek">
+                <img class="pairing-img" src="inthisshirt.png" alt="inthisshirt">
+              </div>
+            
+            <div class="carousel-item">
+                <h2 class="pairing-header">Popular Pairings</h2>
+                <p class="paragraph-pairing"> Beautiful world where are you by Sally Rooney and I drink wine by Adele </p>
+                <img class="pairing-img" src="world.png" alt="people">
+                <img class="pairing-img" src="adele.png" alt="dare">
+              </div>
+            </div>
+            <button class="carousel-control-prev" href="#carouselExampleControls"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" href="#carouselExampleControls"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <button class="carousel-control-next" href="#carouselExampleControls"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <button class="carousel-control-next" href="#carouselExampleControls"  type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+    </section>
+
+    <section id="Nookers">
+        <!--nookers-->
+
+        <div class="row">
+            <div class="col-lg-6">
+          <h1 class="nooker-header">Nookers</h1>
+          <p class="paragraph-nooker">Exchange books and music</p>
+          <img class="img-nooker" src="people-book.jpg">
+            </div>
+            <div class="col-lg-6">
+                <form class="form-nooker">
+                    <label for="username">Username:</label>
+                    <input class="text-nooker-username" type="text" name="username" id="username">
+
+                    <label for="Suggest music-nook"> Music nook:</label>
+                    <input class="text-nooker" type="text" placeholder="Suggest a song and a book" name="music-nook" id="music-nook">
+
+                    <label for="reply">Reply:</label>
+                    <input class="text-nooker" type="text" name="reply" id="reply">
+
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+        <!--footer-->
+        <footer id="footer">
+            <i class="social-icon fab fa-facebook"></i>
+            <i class="social-icon fab fa-twitter"></i>
+            <i class="social-icon fab fa-instagram"></i>
+            <i class="social-icon fas fa-envelope"></i>
+        
+            <p>© Copyright 2021 music-nook</p>
+        
+          </footer>
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
